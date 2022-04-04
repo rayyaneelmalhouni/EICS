@@ -2,10 +2,12 @@ import React from "react";
 import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
+import Fade from "react-reveal/Fade";
 
 function Hero() {
   return (
     <Container>
+      <Fade bottom >
       <TextContainer>
         <Title>
           <span>E</span>l <span>I</span>rfane
@@ -14,6 +16,7 @@ function Hero() {
           <span>C</span>omputer <span>S</span>cience
         </SubTitle>
       </TextContainer>
+      </Fade>
       <Icon>
         <FontAwesomeIcon icon={faAngleDown} />
       </Icon>

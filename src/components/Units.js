@@ -29,16 +29,16 @@ function Units() {
       </TextContainer>
       <Carousel {...settings}>
         <Wrap>
-          <img src="/images/slider-badging.jpg" />
+          <img src="/images/word.png" />
         </Wrap>
         <Wrap>
-          <img src="/images/slider-badag.jpg" />
+          <img src="/images/excel.png" />
         </Wrap>
         <Wrap>
-          <img src="/images/slider-scale.jpg" />
+          <img src="/images/ps.png" />
         </Wrap>
         <Wrap>
-          <img src="/images/slider-scales.jpg" />
+          <img src="/images/scratch.png" />
         </Wrap>
       </Carousel>
       <Icon>
