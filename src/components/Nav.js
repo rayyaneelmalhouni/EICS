@@ -44,7 +44,7 @@ const Logo = styled.div`
     letter-spacing: 1.8px;
     font-family: "Great Vibes", cursive;
     cursor: pointer;
-    color: #f9f9f9;
+    color: #010a80;
     text-decoration: none;
     font-weight: 600;
   }
@@ -60,8 +60,12 @@ const NavMenu = styled.div`
       position: relative;
       a {
         text-decoration: none;
+        text-transform: uppercase;
         color: #f9f9f9;
         font-size: 16px;
+        @media only screen and (max-width: 675px) {
+          font-size: 14px;
+        }
       }
       &:after {
         position: absolute;
