@@ -3,8 +3,7 @@ import Slider from "react-slick";
 import styled from "styled-components";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
+
 
 function Units() {
   let settings = {
@@ -41,9 +40,6 @@ function Units() {
           <img src="/images/scratch.png" />
         </Wrap>
       </Carousel>
-      <Icon>
-        <FontAwesomeIcon icon={faAngleDown} />
-      </Icon>
     </Container>
   );
 }
@@ -110,19 +106,5 @@ const Wrap = styled.div`
     &:hover {
       border: 4px solid rgba(249, 249, 249, 0.8);
     }
-  }
-`;
-const Icon = styled.div`
-  position: absolute;
-  width: 86%;
-  bottom: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 48px;
-  animation: down infinite 1.5s;
-  color: #010a80;
-  @media only screen and (max-width: 675px) {
-    font-size: 36px;
   }
 `;

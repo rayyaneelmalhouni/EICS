@@ -1,12 +1,12 @@
 import React from "react";
 import styled from "styled-components";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
+
 
 function AboutUs() {
   return (
     <Container>
       <Title>ABOUT US</Title>
+      
       <TextContainer>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -19,9 +19,7 @@ function AboutUs() {
       <ImageContainer>
         <img src="/Images/aboutUs.png" />
       </ImageContainer>
-      <Icon>
-        <FontAwesomeIcon icon={faAngleDown} />
-      </Icon>
+
     </Container>
   );
 }
@@ -68,18 +66,5 @@ const ImageContainer = styled.div`
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
-`;
-const Icon = styled.div`
-  position: absolute;
-  bottom: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 48px;
-  animation: down infinite 1.5s;
-  color: #010a80;
-  @media only screen and (max-width: 675px) {
-    font-size: 36px;
   }
 `;
