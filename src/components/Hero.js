@@ -69,6 +69,6 @@ const Icon = styled.div`
   color: #010a80;
   animation: down infinite 1.5s;
   @media only screen and (max-width: 675px) {
-    font-size: 24px;
+    font-size: 36px;
   }
 `;
