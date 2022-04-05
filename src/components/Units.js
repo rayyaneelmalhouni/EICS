@@ -4,7 +4,6 @@ import styled from "styled-components";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-
 function Units() {
   let settings = {
     dots: true,
@@ -28,16 +27,16 @@ function Units() {
       </TextContainer>
       <Carousel {...settings}>
         <Wrap>
-          <img src="/images/word.png" />
+          <img src="https://live.staticflickr.com/65535/51983568085_83c5133889_b.jpg" />
         </Wrap>
         <Wrap>
-          <img src="/images/excel.png" />
+          <img src="https://live.staticflickr.com/65535/51982009792_ab4209677a_z.jpg" />
         </Wrap>
         <Wrap>
-          <img src="/images/ps.png" />
+          <img src="https://live.staticflickr.com/65535/51982009787_05c7042a10_z.jpg" />
         </Wrap>
         <Wrap>
-          <img src="/images/scratch.png" />
+          <img src="https://live.staticflickr.com/65535/51982009767_a7d2131b61_z.jpg" />
         </Wrap>
       </Carousel>
     </Container>

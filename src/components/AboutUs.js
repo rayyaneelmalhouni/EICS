@@ -17,7 +17,7 @@ function AboutUs() {
         mollit anim id est laborum.
       </TextContainer>
       <ImageContainer>
-        <img src="/Images/aboutUs.png" />
+        <img src="https://live.staticflickr.com/65535/51983017766_39e9917468_z.jpg" />
       </ImageContainer>
 
     </Container>
